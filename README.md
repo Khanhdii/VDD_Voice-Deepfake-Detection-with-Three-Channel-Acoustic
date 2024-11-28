@@ -50,7 +50,7 @@ The audio dataset used in this project is **ASVSpoof2019**, which contains `.fla
 - **Source**: [ASVSpoof2019 Dataset on Kaggle](https://www.kaggle.com/datasets/awsaf49/asvpoof-2019-dataset)
 
 ### Feature Dataset
-The extracted features for the **ASVSpoof2019** dataset are also provided for convenience. These features include CQCC representations and others necessary for spoofing detection tasks.
+The extracted features for the **ASVSpoof2019** dataset are also provided for convenience. These features include MFCC, CQCC, Spectrogram representations.
 
 - **Source**: [Feature Dataset for ASVSpoof2019 on Kaggle](https://www.kaggle.com/datasets/caophankhnhduy/feature-la-asvspoof2019/data)
 
