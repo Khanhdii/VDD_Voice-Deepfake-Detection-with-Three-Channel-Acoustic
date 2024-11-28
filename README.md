@@ -1,4 +1,5 @@
-
+# Update the README content to include dataset and feature information.
+updated_readme_content = """
 # Voice Spoofing Detection and Feature Extraction
 
 This repository contains two Jupyter Notebooks designed for feature extraction and voice spoofing detection using machine learning and deep learning techniques.
@@ -41,6 +42,20 @@ This repository contains two Jupyter Notebooks designed for feature extraction a
 
 ---
 
+## Dataset and Features
+
+### Dataset
+The audio dataset used in this project is **ASVSpoof2019**, which contains `.flac` files for voice spoofing detection. It follows a structured protocol for train, development, and evaluation sets.
+
+- **Source**: [ASVSpoof2019 Dataset on Kaggle](https://www.kaggle.com/datasets/awsaf49/asvpoof-2019-dataset)
+
+### Feature Dataset
+The extracted features for the **ASVSpoof2019** dataset are also provided for convenience. These features include CQCC representations and others necessary for spoofing detection tasks.
+
+- **Source**: [Feature Dataset for ASVSpoof2019 on Kaggle](https://www.kaggle.com/datasets/caophankhnhduy/feature-la-asvspoof2019/data)
+
+---
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -48,26 +63,3 @@ This repository contains two Jupyter Notebooks designed for feature extraction a
 2. Install the required libraries by running:
    ```bash
    pip install -r requirements.txt
-   ```
-
-### Required Libraries
-- `numpy`, `pandas`, `matplotlib`, `seaborn`
-- `librosa`, `tqdm`
-- `tensorflow`, `keras`
-- `spafe` (for feature extraction)
-
-### Running the Notebooks
-1. Open Jupyter Notebook or JupyterLab.
-2. Navigate to the respective `.ipynb` file.
-3. Execute the cells sequentially to reproduce the results.
-
----
-
-## Dataset
-Both notebooks expect audio datasets in `.flac` format. The dataset should follow the protocol structure specified in the `ASVspoof2019` challenge. Update the file paths in the notebooks to match your local directory structure.
-
----
-
-## Acknowledgments
-These notebooks leverage state-of-the-art techniques for audio processing and spoofing detection. Special thanks to the developers of `librosa`, `tensorflow`, and `spafe` for providing robust tools for audio and deep learning research.
-
